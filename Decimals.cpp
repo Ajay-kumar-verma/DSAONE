@@ -25,10 +25,10 @@ int Bin(int d){
 int bin=0;
 int i=0;
 
-while(d>0){
- int bit=d%2;
+while(d>0){ 
+ int bit=d%2;  // (d&1) for getting last bit
  bin =bit*pow(10,i++)+bin; 
- d=d/2;
+ d=d/2; // d>>1 , It gets divided by 2
 }
 
 return bin;
