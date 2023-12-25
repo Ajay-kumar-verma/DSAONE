@@ -17,5 +17,17 @@ int main(){
     cout<<"N equals to 5";
  }
 
+cout<<endl;
+ int x=9;
+
+ switch(x){
+ case 'x>=3': cout<<"It is a 2";break;
+ case 6: cout<<"It is a 6";break;
+ default:cout<<"It is something else"; 
+
+ }
+
+
+
     return 0;
 }

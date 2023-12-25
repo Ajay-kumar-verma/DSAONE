@@ -94,11 +94,49 @@ for(int i=0;i<=t;i++){
     }
     cout<<endl;
 }
-
-
 }
 
+ void Pyramid(int n){
+
+ for(int i=0;i<n;i++){
+ 
+ for(int j=0;j<n-1-i;j++)
+       cout<<" ";
+   
+    for(int k=0;k<i+1;k++){
+     if(k==0||k==i)
+      cout<<"* ";
+      else
+      cout<<"  "; 
+
+    }
+  
+
+
+//    for(int j=0;j<i+1;j++)
+//       cout<<" ";
+   
+//    for(int k=0;k<n-1-i;k++){
+//       if(k==0 || k==n-2-i)
+//        cout<<"* ";
+//        else
+//        cout<<"  ";
+//     }
+   
+    
+
+   cout<<endl; 
+
+ }
+
+ }
+
+
+
 int main(){
+
+    Pyramid(7);
+    cout<<endl;
   Sqr(3);
   cout<<endl;
   Rect(6,4);
