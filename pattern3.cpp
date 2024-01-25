@@ -98,13 +98,29 @@ for(int i=0;i<n;i++){
 
 }
 
+void tri(int n){
+
+for(int i=0;i<n;i++){
+  for(int j=0;j<i+1;j++){
+     if((i+j)%2==1)
+      cout<<"0 ";
+      else 
+      cout<<"1 ";
+
+  }
+  cout<<endl;
+}
+
+
+}
 int main(){
  
 //  hlp(6);  
 //  ivtd(10);
 //  pet(6);
 //   ft(6);
-btfy(8);
+// btfy(8);
+tri(7);
 return 0;
 
 }
