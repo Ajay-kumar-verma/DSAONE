@@ -43,7 +43,7 @@ int ind=0;
 int l=0;
 int r=n-1;
 
-while(ind<r){
+while(ind<=r){
 
  if(arr[ind]==0){
     int t= arr[ind];
